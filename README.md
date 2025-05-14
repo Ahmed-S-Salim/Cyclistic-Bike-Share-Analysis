@@ -26,7 +26,7 @@ The final insights will support the Cyclistic marketing team’s goal of increas
 ## 📂 Data Source
 
 The data was provided by Motivate International Inc. and made public through the [Divvy bike-share system](https://divvybikes.com/system-data).  
-- **Date range:** August 2020 to July 2021  
+- **Date range:** April 2024 to March 2025  
 - **Files:** 12 monthly `.csv` files  
 - **Size:** Over 5 million rows of ride-level data
 
@@ -77,7 +77,7 @@ The data was provided by Motivate International Inc. and made public through the
 ## 🧠 What I Learned
 
 - How to apply the full data analysis process: ask, prepare, process, analyze, share, and act.
-- Gained hands-on experience in data cleaning, feature engineering, and summary statistics in R.
+- Gained hands-on experience in data cleaning, and summary statistics in R.
 - Learned how to create business-driven insights that can help decision-making.
 
 ---
