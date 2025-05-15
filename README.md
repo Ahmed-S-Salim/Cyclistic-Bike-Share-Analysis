@@ -1,9 +1,10 @@
-# 🚴‍♂️ Cyclistic Bike-Share Analysis – Capstone Project
+# 🚴 Cyclistic Bike-Share Analysis – Capstone Project
 
 **Author:** Ahmed Salim  
 **Level:** Beginner – Google Data Analytics Certificate Project  
 **Tools Used:** R, RStudio (Tidyverse, Lubridate, HMS, Data.table), Excel, Power BI  
-**GitHub Repo:** [Cyclistic-Bike-Share-Analysis](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis)
+**GitHub Repo:** [Cyclistic-Bike-Share-Analysis](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis)  
+**Kaggle Dataset:** [Cyclistic Bike-Share Capstone Project](https://www.kaggle.com/datasets/ahmedssalim/cyclistic-bike-share-analysis-capstone-project-a)
 
 ---
 
@@ -21,70 +22,77 @@ By identifying usage patterns over a 12-month period, Cyclistic can build target
 ---
 
 ## 📂 Dataset
-- **Source:** [Divvy Bikes – System Data](https://divvybikes.com/system-data)
-- **Provider:** Motivate International Inc.
-- **Timeframe:** April 2024 to March 2025
-- **Files:** 12 individual `.csv` files
-- **Volume:** 5M+ ride records
+- **Source:** Divvy Bike System – [https://divvybikes.com/system-data](https://divvybikes.com/system-data)  
+- **Provider:** Motivate International Inc.  
+- **Timeframe:** April 2024 to March 2025  
+- **Files:** 12 monthly `.csv` files  
+- **Volume:** 5M+ ride records  
+- **Cleaned Dataset on Kaggle:** [View Here](https://www.kaggle.com/datasets/ahmedssalim/cyclistic-bike-share-analysis-capstone-project-a)
+
+---
+
+## ⚠️ Disclaimer
+> This data is provided “as-is” and has been modified for educational purposes only.  
+> All ride data is owned by Motivate International Inc. and Divvy Bikes.  
+> Redistribution or commercial use is not permitted.
 
 ---
 
 ## 🛠️ Tools & Skills Used
-- **R**: Data cleaning, transformation, and feature engineering
-- **Tidyverse**: Wrangling with `dplyr`, `ggplot2`, `tidyr`
-- **Lubridate**: Date and time parsing
-- **HMS**: Time classification
-- **Data.table**: Exporting data
-- **Excel**: Quick reviews & exploration
-- **Power BI**: Dashboard development & data visualization
-- **RStudio**: R scripting environment
+- **RStudio** – Scripting environment  
+- **Tidyverse** – Wrangling and analysis (`dplyr`, `ggplot2`, `readr`)  
+- **Lubridate** – Date/time parsing  
+- **HMS** – Time-of-day classification  
+- **Data.table** – Fast CSV export  
+- **Excel** – Data review and QA  
+- **Power BI** – Visualization dashboard
 
 ---
 
-## 🧼 Data Cleaning Process (R)
-- Merged all 12 monthly `.csv` files
-- Filtered out nulls, duplicates, and negative ride durations
-- Engineered new features: `ride_length`, `day_of_week`, `season`, `hour`, `time_of_day`
-- Removed unused fields like GPS and station IDs
-- Exported the cleaned dataset to `.csv` for Power BI visualization
+## 🧼 Data Cleaning Summary (R)
+- Combined 12 monthly `.csv` files using `rbind()`  
+- Removed:
+  - Rows with missing or null values  
+  - Duplicate records  
+  - Rides with zero or negative duration  
+- Engineered columns:
+  - `ride_length` in minutes  
+  - `day_of_week`, `hour`, `season`, and `time_of_day`
 
 📄 R Script: [`cyclistic_analysis.R`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/cyclistic_analysis.R)
 
 ---
 
-## 📊 Dashboard & Visualizations
-Built an interactive dashboard in Power BI featuring:
-- Total rides and ride duration KPIs
-- Monthly ride trends
-- Time-of-day & day-of-week usage patterns
-- Seasonality and rider type comparisons
-- Member vs. Casual behavior breakdown
+## 📊 Dashboard Note
+After completing the analysis and designing the dashboard in **Power BI**, I discovered that Power BI Public does not support sharing `.pbix` files or dashboards from the free version.  
+➡️ To ensure insights remain accessible, I exported the dashboard as a **PDF report**, which includes all visuals, charts, and KPIs.
 
-📥 Dashboard PDF: [`Cyclistic_Dashboard.pdf`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/Cyclistic_Dashboard.pdf)
+📄 Power BI Report: [`Cyclistic_Dashboard.pdf`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/Cyclistic_Dashboard.pdf)
 
 ---
 
 ## 📈 Key Insights
-- ✅ Members ride more frequently, especially on weekdays and during commuting hours
-- ✅ Casual riders take longer trips, mostly on weekends and afternoons
-- ✅ Summer was the busiest season for total rides
-- ✅ Classic bikes were the most popular among both user types
+- ✅ Members ride more frequently—mostly on weekdays and commuting hours  
+- ✅ Casual riders take longer trips—mostly on weekends and afternoons  
+- ✅ Summer had the highest overall ride volume  
+- ✅ Classic bikes are the most used type across both rider groups
 
 ---
 
 ## 📁 Project Files
-- [`cyclistic_analysis.R`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/cyclistic_analysis.R) – Data cleaning & processing in R  
-- `cyclistic_cleaned_data.csv` – Final dataset used in Power BI  
+- [`cyclistic_analysis.R`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/cyclistic_analysis.R) – Full cleaning and prep script  
+- [`cyclistic_cleaned_data.csv`](https://www.kaggle.com/datasets/ahmedssalim/cyclistic-bike-share-analysis-capstone-project-a) – Final dataset used for visualizations  
 - [`Cyclistic_Dashboard.pdf`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/Cyclistic_Dashboard.pdf) – Power BI dashboard  
-- [`README.md`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/README.md) – This documentation
+- [`README.md`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/README.md) – Project summary and documentation
 
 ---
 
 ## 🧠 What I Learned
-- Full-cycle analytics process: **ask → prepare → process → analyze → share → act**
-- Practical data cleaning and feature extraction in R
-- Building clean, insight-driven dashboards in Power BI
-- Framing business insights to support decision-making
+- End-to-end workflow of a real-world analytics project  
+- Practical use of R and Tidyverse for data wrangling  
+- How to extract actionable insights from raw data  
+- Designing clear visual narratives using Power BI  
+- Writing and documenting projects for employers and portfolio
 
 ---
 
@@ -97,4 +105,4 @@ Built an interactive dashboard in Power BI featuring:
 
 ---
 
-> ⚠️ *Note: This data is publicly available and modified for educational purposes only.*
+> ⚠️ *Note: This dataset is for educational use only and should not be used for commercial purposes.*
