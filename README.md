@@ -1,102 +1,102 @@
+Author: Ahmed SalimLevel: Beginner – Google Data Analytics Certificate ProjectTools Used: R, RStudio (Tidyverse, Lubridate, HMS, Data.table), Excel, Power BI
 
-# 🚴‍♂️ Cyclistic Bike-Share Analysis – Capstone Project
+📌 Project Overview
 
-**Author:** Ahmed Salim  
-**Level:** Beginner – Google Data Analytics Certificate Project  
-**Tools Used:** R, RStudio, Tidyverse, Lubridate, HMS, Data.table
+This project is the final capstone for the Google Data Analytics Professional Certificate. The goal is to help Cyclistic, a fictional bike-share company in Chicago, understand how casual riders and annual members use their service differently. By identifying usage patterns, the company can develop strategies to convert more casual riders into loyal, long-term members.
 
----
+🌟 Business Task
 
-## 📌 Project Overview
-
-This project is the final capstone for the Google Data Analytics Professional Certificate. The goal is to help **Cyclistic**, a fictional bike-share company in Chicago, understand how **casual riders** and **annual members** use their service differently. By identifying usage patterns, the company can develop strategies to convert more casual riders into loyal, long-term members.
-
----
-
-## 🎯 Business Task
-
-**Objective:**  
-Analyze 12 months of historical ride data to answer:  
-**"How do casual riders and annual members use Cyclistic bikes differently?"**
+Objective:Analyze 12 months of historical ride data to answer:"How do casual riders and annual members use Cyclistic bikes differently?"
 
 The final insights will support the Cyclistic marketing team’s goal of increasing membership.
 
----
+📂 Data Source
 
-## 📂 Data Source
+The data was provided by Motivate International Inc. and made public through the Divvy bike-share system.
 
-The data was provided by Motivate International Inc. and made public through the [Divvy bike-share system](https://divvybikes.com/system-data).  
-- **Date range:** April 2024 to March 2025  
-- **Files:** 12 monthly `.csv` files  
-- **Size:** Over 5 million rows of ride-level data
+Date range: April 2024 to March 2025
 
----
+Files: 12 monthly .csv files
 
-## 🛠️ Tools & Skills Used
+Size: Over 5 million rows of ride-level data
 
-- **R**: Data cleaning, transformation, summarization
-- **Tidyverse**: `dplyr`, `ggplot2`, `readr`, `tidyr` for data wrangling
-- **Lubridate**: Date & time manipulation
-- **HMS**: Time-of-day classification
-- **Data.table**: Export cleaned dataset
-- **RStudio**: Environment for running and testing all code
+🔧 Tools & Skills Used
 
----
+R: Data cleaning, transformation, summarization
 
-## 🧼 Data Cleaning Steps
+Tidyverse: dplyr, ggplot2, readr, tidyr for data wrangling
 
-- Combined 12 months of ride data using `rbind()`
-- Removed missing and duplicate rows
-- Created a `ride_length` column (in minutes)
-- Filtered out rides with zero or negative duration
-- Dropped unnecessary columns (IDs and GPS coordinates)
-- Extracted features: date, time, day of week, season, hour, and time of day
+Lubridate: Date & time manipulation
 
----
+HMS: Time-of-day classification
 
-## 📈 Key Insights
+Data.table: Export cleaned dataset
 
-- **Members ride more frequently than casual users.**
-- **Casual riders take longer rides on average.**
-- **Casual users ride more on weekends and afternoons.**
-- **Members are more active during weekday mornings and commute hours.**
-- **Classic bikes are the most commonly used type across both groups.**
+Excel: Exploratory review and quick summaries
 
----
+Power BI: Interactive dashboard design and data visualization
 
-## 📊 Next Steps
+RStudio: Environment for running and testing all code
 
-- Build visualizations using Tableau or Power BI (bar charts, line graphs, pie charts).
-- Present key findings to stakeholders with actionable business recommendations:
-  - Launch weekend promotions for casual users.
-  - Target email campaigns based on time-of-day ride habits.
-  - Offer free trial weeks during high-use seasons.
+🧼 Data Cleaning Steps
 
----
+Combined 12 months of ride data using rbind()
 
-## 🧠 What I Learned
+Removed missing and duplicate rows
 
-- How to apply the full data analysis process: ask, prepare, process, analyze, share, and act.
-- Gained hands-on experience in data cleaning, and summary statistics in R.
-- Learned how to create business-driven insights that can help decision-making.
+Created a ride_length column (in minutes)
 
----
+Filtered out rides with zero or negative duration
 
-## 📁 Project Files
+Dropped unnecessary columns (IDs and GPS coordinates)
 
-- `cyclistic_analysis.R` – Full R script
-- `cyclistic_cleaned_data.csv` – Cleaned dataset for dashboard use
-- `README.md` – Project documentation
+Extracted features: date, time, day of week, season, hour, and time of day
 
----
+📄 R Script: cyclistic_analysis.R
 
-## 📬 Connect with Me
+📈 Key Insights
 
-**Ahmed Salim**  
-📍 Houston (Richmond), TX  
-📧 [ahmedsabahsalim@gmail.com](mailto:ahmedsabahsalim@gmail.com)  
-🔗 [LinkedIn: Ahmed Salim](https://www.linkedin.com/in/ahmed-s-salim/)
+Members ride more frequently than casual users.
 
----
+Casual riders take longer rides on average.
 
-> ⚠️ *This data is for educational purposes only and has been altered to protect user privacy.*
+Casual users ride more on weekends and afternoons.
+
+Members are more active during weekday mornings and commute hours.
+
+Classic bikes are the most commonly used type across both groups.
+
+📊 Dashboard & Deliverables
+
+Visualizations created in Power BI
+
+Dashboard exported as PDF for sharing
+
+Highlights ride trends, seasonality, rider behavior, and key comparisons
+
+PDF File: Cyclistic_Dashboard.pdf
+
+📁 Project Files
+
+cyclistic_analysis.R – Full R script
+
+cyclistic_cleaned_data.csv – Cleaned dataset for dashboard use
+
+Cyclistic_Dashboard.pdf – Power BI dashboard exported as PDF
+
+README.md – Project documentation
+
+🧐 What I Learned
+
+How to apply the full data analysis process: ask, prepare, process, analyze, share, and act.
+
+Gained hands-on experience in data cleaning, and summary statistics in R.
+
+Learned how to create business-driven insights that can help decision-making.
+
+📩 Connect with Me
+
+Ahmed Salim📍 Houston (Richmond), TX📧 ahmedsabahsalim@gmail.com🔗 LinkedIn: Ahmed Salim
+
+⚠️ This data is for educational purposes only and has been altered to protect user privacy.
+
