@@ -81,7 +81,7 @@ After completing the analysis and designing the dashboard in **Power BI**, I dis
 
 ## 📁 Project Files
 - [`cyclistic_analysis.R`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/cyclistic_analysis.R) – Full cleaning and prep script  
-- [`cyclistic_cleaned_data.csv`](https://www.kaggle.com/datasets/ahmedssalim/cyclistic-bike-share-analysis-capstone-project-a) – Final dataset used for visualizations  
+- [`cyclistic_cleaned_data`](https://www.kaggle.com/datasets/ahmedssalim/cyclistic-bike-share-analysis-capstone-project-a) – Final dataset used for visualizations  
 - [`Cyclistic_Dashboard.pdf`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/Cyclistic_Dashboard.pdf) – Power BI dashboard  
 - [`README.md`](https://github.com/Ahmed-S-Salim/Cyclistic-Bike-Share-Analysis/blob/main/README.md) – Project summary and documentation
 
